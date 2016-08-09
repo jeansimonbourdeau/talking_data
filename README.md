@@ -5,6 +5,8 @@ Dans le repo, vous pouvez trouver le fichier 0_Run_Scripts qui sert de fhicier p
 
 Afin que le tout fonctionne, vous devez créer un dossier "RScript" à l'intérieur du dossier où le projet R est situé. Le working directory devrait être fixé au dossier contenant le projet R. Pour vérifier où pointe votre working directory, utilisez la commande getwd(), pour modifier le working directory, utilisez la commande setwd().
 
+Vous devez installer les packages nécessaires avant d'exécuter le tout avec la commande install.packages("packagename"). Si les packages ne sont pas disponibles sur le CRAN, mais bien sur un Github (comme le package xda), simplement aller sur la page Github et regarder les premières lignes des instructions pour la marche à suivre.
+
 Voici les développements à faire:
 
 - Améliorer l'interface/la façon dont R demande à l'usager de rentrer une valeur (ne pas utiliser tcltk).
