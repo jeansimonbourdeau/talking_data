@@ -7,6 +7,9 @@ Afin que le tout fonctionne, vous devez créer un dossier "RScript" à l'intéri
 
 Vous devez installer les packages nécessaires avant d'exécuter le tout avec la commande install.packages("packagename"). Si les packages ne sont pas disponibles sur le CRAN, mais bien sur un Github (comme le package xda), simplement aller sur la page Github et regarder les premières lignes des instructions pour la marche à suivre.
 
+## Nouveau 12 août 2016
+Nouveau script R qui est une ébauche de la fonction qui va "wrap up" les différents fichiers d'importation en 1 : 0_z_function_import.R
+
 Voici les développements à faire:
 
 - Améliorer l'interface/la façon dont R demande à l'usager de rentrer une valeur (ne pas utiliser tcltk).
