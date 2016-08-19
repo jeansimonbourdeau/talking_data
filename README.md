@@ -19,7 +19,7 @@ De plus, j'ai enlevé toute référence au package tcltk qui pose problème sur 
 Nouveau script R qui est une ébauche de la fonction qui va "wrap up" les différents fichiers d'importation en 1 : 0_z_function_import.R
 ***
 
-Voici les développements à faire:
+## Développements à faire :
 
 - Améliorer l'interface/la façon dont R demande à l'usager de rentrer une valeur (ne pas utiliser ~~tcltk~~ le fichier texte db.txt).
 - ~~Pour les fichiers 0_3_import_xxx.R à 0_9_import_xxx.R : Rassembler le tout dans un fichier qui en boucle exécute le code pour les différentes tables.~~
